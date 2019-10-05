@@ -25,6 +25,11 @@ exports.isPopulatedString = function(string) {
     return string !== undefined && typeof string === 'string' && string.length > 0;
 };
 
+exports.isPopulatedNumber = function(number) {
+    // Check for non-undefined number
+    return number !== undefined && typeof number === 'number';
+};
+
 exports.isPopulatedObject = function(obj) {
     // Check for non-undefined object variable with at least 1 element
     return exports.isObject(obj) && Object.keys(obj).length > 0;

@@ -11,5 +11,9 @@ module.exports = {
             // Number of milliseconds to wait before retrying a failed query (default: 100) 
             retryInterval: 1000
         }
+    },
+    cache: {
+        // Radius of survivors to return for client-side DB caching
+        radiusMiles: 10
     }
 };
