@@ -1,7 +1,7 @@
 module.exports = {
     api: {
         // Koa REST API port
-        port: 3000
+        port: 3001
     },
     db: {
         // Monkster package config
