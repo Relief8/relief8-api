@@ -9,6 +9,7 @@ var db = monk(process.env.DB);
 var wrap = monkster(config.db.monksterOptions);
 
 // Load object models
+exports.monk = monk;
 exports.angels = wrap(db.get('angels'));
 exports.checkins = wrap(db.get('checkins'));
 exports.survivors = wrap(db.get('survivors'));
