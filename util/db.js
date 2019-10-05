@@ -12,3 +12,6 @@ var wrap = monkster(config.db.monksterOptions);
 exports.angels = wrap(db.get('angels'));
 exports.checkins = wrap(db.get('checkins'));
 exports.survivors = wrap(db.get('survivors'));
+
+// Indexes
+exports.survivors.index({ location: '2dsphere' });
