@@ -6,11 +6,11 @@
   "main": "server.js",
   "version": "1.0.0",
   "dependencies": {
+    "@google/maps": "^1.0.1",
     "bson": "^1.0.4",
     "co": "^4.6.0",
     "co-sleep": "0.0.1",
     "crypto": "0.0.3",
-    "google-maps-geocoder": "^1.0.1",
     "koa": "^1.2.0",
     "koa-bodyparser": "^2.0.1",
     "koa-compress": "^1.0.9",
