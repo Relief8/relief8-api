@@ -6,6 +6,7 @@
   "main": "server.js",
   "version": "1.0.0",
   "dependencies": {
+    "@google/maps": "^1.0.1",
     "bson": "^1.0.4",
     "co": "^4.6.0",
     "co-sleep": "0.0.1",
